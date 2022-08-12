@@ -43,7 +43,7 @@ function Home(props){
             </header>
             <div className="clear"></div>
             <h1 id='nome'>{props.name}</h1>
-            <img src={window.location.origin + props.img}></img>
+            <img src={process.env.PUBLIC_URL + props.img}></img>
         </div>
     )
 }

@@ -7,12 +7,12 @@ const inicio = ()=>{
 function Projeto(props){
     return(
         <div className='projeto'>
-            <img src={window.location.origin + props.img} alt='Imagem errada ou sem definiçao'></img>
+            <img src={process.env.PUBLIC_URL + props.img} alt='Imagem errada ou sem definiçao'></img>
             <h2>{props.nome}</h2>
             <div className='comentarios'>
                 <p>{props.comentarios}</p>
             </div>
-            <a href={props.repo} target='_blank'><img src={window.location.origin + '/github.png'}/></a>
+            <a href={props.repo} target='_blank'><img src={process.env.PUBLIC_URL + '/github.png'}/></a>
         </div>
     )
 }

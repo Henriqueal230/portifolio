@@ -13,7 +13,7 @@ function Sobre(props){
                 <h1>Sobre</h1>
             </div>
             <div className='img-text'>
-                <img src={window.location.origin + props.img}></img>
+                <img src={process.env.PUBLIC_URL + props.img}></img>
                 <div className='sobre-perguntas'>
                     <h4>Meu nome é henrique tenho 20 anos.</h4>
                     <h5>Por que  deve me contratar?</h5>
