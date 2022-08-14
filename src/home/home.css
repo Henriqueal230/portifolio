@@ -12,7 +12,7 @@ nav{
 
 nav ul{
     list-style-type: none;
-    margin-top: 50px;
+    margin-top: 5vh;
 }
 
 nav ul li{
@@ -62,15 +62,14 @@ nav ul li{
 }
 
 @media screen and (max-width: 800px) {
+    nav ul li{
+        font-size: 0.6em;
+        margin-right: 30px;
+    }
+
     .home{
         display: flex;
         justify-content: center;
-    }
-
-    nav ul li{
-        font-size: 0.8em;
-        margin-right: 50px;
-        cursor: pointer;
     }
 
     .home h1{

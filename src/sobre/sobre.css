@@ -97,6 +97,15 @@ a{
 }
 
 @media screen and (max-width: 800px){
+    .sobre-header h1{
+        font-size: 2em;
+    }
+
+    .sobre-header h2{
+        left: 2%;
+        font-size: 1em;
+    }
+
     .img-text{
         flex-direction: column;
         text-align: center;

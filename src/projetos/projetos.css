@@ -83,6 +83,15 @@
 }
 
 @media screen and (max-width: 800px){
+    .projeto-header h1{
+        font-size: 2em;
+    }
+
+    .projeto-header h2{
+        left: 2%;
+        font-size: 1em;
+    }
+
     .projeto{
         width: 70%;
         height: 250px;

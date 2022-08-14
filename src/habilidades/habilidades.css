@@ -83,6 +83,18 @@
         animation: pisca .7s infinite;
     }
 }
+
+@media screen and (max-width: 800px) {
+    .sobre-habilidades h2{
+        left: 2%;
+        font-size: 1em;
+    }
+    
+    .sobre-habilidades h1{
+        font-size: 2em;
+    }
+}
+
 @keyframes pisca{
     0%, 100%{
         opacity: 1;
