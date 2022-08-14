@@ -13,19 +13,19 @@ function Habilidades(){
                 <h1>Skills</h1>
             </div>
             <div className='skill'>
-                <div>
+                <div className='w50'>
                 <SiHtml5 className='html'/>
                 <p>HTML</p>
                 </div>
-                <div>
+                <div className='w50'>
                 <SiCss3 className='css'/>
                 <p>CSS</p>
                 </div>
-                <div>
+                <div className='w50'>
                 <SiJavascript className='js'/>
                 <p>Js</p>
                 </div>
-                <div>
+                <div className='w50'>
                 <SiReact className='react'/>
                 <p>React</p>
                 </div>

@@ -32,6 +32,7 @@
     justify-content: space-around;
     flex-wrap: wrap;
     margin: 0 auto;
+    margin: 10px;
 }
 
 .projeto{
@@ -41,7 +42,6 @@
     flex-wrap: wrap;
     background-color: white;
     margin-top: 50px;
-    margin-left: 50px;
 }
 
 .projeto > img{
@@ -80,4 +80,11 @@
 .projeto a > img{
     width: 48%;
     height: 40px;
+}
+
+@media screen and (max-width: 800px){
+    .projeto{
+        width: 70%;
+        height: 250px;
+    }
 }

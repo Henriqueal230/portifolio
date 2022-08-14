@@ -26,11 +26,6 @@ function Projetos(){
             </div>
             <div className='projetosflex'>
                 <Projeto repo ='https://github.com/Henriqueal230/pokedex' img='/pokeicon.png' nome='Pokedex' comentarios='Minha podedex com react consumindo a api do pokeapi'/>
-                <Projeto img='' nome='Em breve' comentarios='Em breve'/>
-                <Projeto img='' nome='Em breve' comentarios='Em breve'/>
-                <Projeto img='' nome='Em breve' comentarios='Em breve'/>
-                <Projeto img='' nome='Em breve' comentarios='Em breve'/>
-                <Projeto img='' nome='Em breve' comentarios='Em breve'/>
             </div>
         </section>
     )

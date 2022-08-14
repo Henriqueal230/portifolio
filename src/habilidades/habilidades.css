@@ -62,6 +62,27 @@
     animation: pisca .7s infinite;
 }
 
+@media screen and (max-width: 1000px) {
+    .skill{
+        flex-wrap: wrap;
+        margin-top: 7%;
+        font-size: 3em;
+    }
+
+    .w50{
+        width: 50%;
+        margin-top: 6%;
+    }
+
+    .skills > p{
+        color: #ffffff;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        margin-top: 10vh;
+        animation: pisca .7s infinite;
+    }
+}
 @keyframes pisca{
     0%, 100%{
         opacity: 1;

@@ -34,7 +34,7 @@
     width: 35vh;
     height: 35vh;
     border-radius: 35vh;
-    margin-left: 10%;
+    margin-left: 8%;
     margin-top: 25vh;
 }
 
@@ -44,22 +44,19 @@
 }
 
 .sobre-perguntas h4{
-    font-size: 35px;
-    width: 100vh;
+    font-size: 1.8em;
     color: #232946;
     font-weight: 700;
 }
 
 .sobre-perguntas h5{
     font-size: 20px;
-    width: 100vh;
     color: #232946;
     font-weight: 700;
     margin-top: 5vh;
 }
 
 .sobre-perguntas p{
-    width: 100vh;
     color: #232946;
     margin-top: 5px;
 }
@@ -68,11 +65,11 @@
     font-size: 50px;
     display: flex;
     justify-content: center;
-    margin-top: 1.5em;
+    margin-top: 5%;
 }
 
 a{
-    color: #232946;;
+    color: #232946;
 }
 
 .git{
@@ -91,4 +88,38 @@ a{
 .linkedin:hover{
     color: #0072b1;
     cursor: pointer;
+}
+
+@media screen and (max-width: 1000px){
+    .sobre-perguntas h4{
+        font-size: 1.49em;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .img-text{
+        flex-direction: column;
+        text-align: center;
+        margin-top: 5%;
+    }
+
+    .sobre img{
+        width: 16vh;
+        height: 16vh;
+        border-radius: 35vh;
+        margin: auto;
+    }
+
+    .sobre-perguntas h4{
+        font-size: 1.2em;
+    }
+
+    .sobre-perguntas h5{
+        font-size: 1em;
+        margin-top: 2vh;
+    }
+    
+    .sobre-perguntas p{
+        font-size: 0.8em;
+    }
 }
