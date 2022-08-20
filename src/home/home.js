@@ -4,7 +4,7 @@ const inicio = ()=>{
 }
 
 const sobre = ()=>{
-    window.scrollTo(0, document.getElementById('sobre').offsetTop + 1);
+    window.scrollTo(0, document.getElementById('sobre').offsetTop);
 }
 
 const skill = ()=>{

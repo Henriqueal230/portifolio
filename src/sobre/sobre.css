@@ -110,6 +110,7 @@ a{
         flex-direction: column;
         text-align: center;
         margin-top: 5%;
+        margin-left: 0;
     }
 
     .sobre img{
