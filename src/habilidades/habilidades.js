@@ -13,21 +13,21 @@ function Habilidades(){
                 <h1>Skills</h1>
             </div>
             <div className='skill'>
-                <div className='w50'>
-                <SiHtml5 className='html'/>
-                <p>HTML</p>
+                <div className='w50 skill_'>
+                    <SiHtml5 className='html'/>
+                    <p>HTML</p>
                 </div>
-                <div className='w50'>
-                <SiCss3 className='css'/>
-                <p>CSS</p>
+                <div className='w50 skill_'>
+                    <SiCss3 className='css'/>
+                    <p>CSS</p>
                 </div>
-                <div className='w50'>
-                <SiJavascript className='js'/>
-                <p>Js</p>
+                <div className='w50 skill_'>
+                    <SiJavascript className='js'/>
+                    <p>Js</p>
                 </div>
-                <div className='w50'>
-                <SiReact className='react'/>
-                <p>React</p>
+                <div className='w50 skill_'>
+                    <SiReact className='react'/>
+                    <p>React</p>
                 </div>
             </div>
             <p>...</p>

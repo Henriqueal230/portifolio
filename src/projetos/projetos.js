@@ -13,6 +13,7 @@ function Projeto(props){
                 <p>{props.comentarios}</p>
             </div>
             <a href={props.repo} target='_blank'><img src={process.env.PUBLIC_URL + '/github.png'}/></a>
+            <a href={props.site} target='_blank'><h1>Site</h1></a>
         </div>
     )
 }
@@ -25,7 +26,13 @@ function Projetos(){
                 <h1>Projetos</h1>
             </div>
             <div className='projetosflex'>
-                <Projeto repo ='https://github.com/Henriqueal230/pokedex' img='/pokeicon.png' nome='Pokedex' comentarios='Minha podedex com react consumindo a api do pokeapi'/>
+                <Projeto 
+                repo ='https://github.com/Henriqueal230/pokedex'
+                img='/pokeicon.png' 
+                nome='Pokedex'
+                comentarios='Minha podedex com react consumindo a api do pokeapi'
+                site='https://henriqueeal.github.io/pokedex/'
+                />
             </div>
         </section>
     )

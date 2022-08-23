@@ -18,7 +18,6 @@ const projeto = ()=>{
 window.onload = function (){
     const nome = document.getElementById('nome');
     const array = nome.innerHTML.split('');
-    console.log(array)
     nome.innerHTML = ' ';
     array.forEach((letra, i) => {
         setTimeout(function(){

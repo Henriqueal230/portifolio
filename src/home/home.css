@@ -3,6 +3,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    overflow: hidden;
 }
 
 nav{
@@ -38,7 +39,8 @@ nav ul li{
    }
 
 .home img{
-    width: 60vh;
+    width: 40vw;
+    max-width: 500px;
     position: absolute;
     right: 10%;
     bottom: 0;
@@ -82,7 +84,7 @@ nav ul li{
         position: absolute;
         right: auto;
         text-align: center;
-        width: 40vh;
+        width: 100vw;
     }
 }
 

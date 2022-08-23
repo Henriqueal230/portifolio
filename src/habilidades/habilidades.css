@@ -32,20 +32,31 @@
     text-align: center;
 }
 
+.skill_{
+    width: 20%;
+    height: 30vh;
+    overflow: hidden;
+    box-shadow: 0px 3px 23px 9px rgba(0,0,0,0.51);
+}
+
 .html{
     color: rgb(252, 109, 0);
+    margin-top: 3vh;
 }
 
 .css{
     color: blue;
+    margin-top: 3vh;
 }
 
 .js{
     color: gold;
+    margin-top: 3vh;
 }
 
 .react{
     color: aqua;
+    margin-top: 3vh;
 }
 
 .skill p{
@@ -65,12 +76,17 @@
 @media screen and (max-width: 1000px) {
     .skill{
         flex-wrap: wrap;
-        margin-top: 7%;
-        font-size: 3em;
+        margin-top: 2%;
+        font-size: 2.5em;
+    }
+
+    .skill_{
+        width: 20%;
+        height: 23vh;
     }
 
     .w50{
-        width: 50%;
+        width: 40%;
         margin-top: 6%;
     }
 
