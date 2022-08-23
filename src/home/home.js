@@ -33,10 +33,10 @@ function Home(props){
             <header>
                 <nav>
                     <ul>
-                        <li onClick={inicio}>Inicio</li>
-                        <li onClick={sobre}>Sobre</li>
-                        <li onClick={skill}>Skills</li>
-                        <li onClick={projeto}>Projetos</li>
+                        <li onClick={inicio}><p>Inicio</p></li>
+                        <li onClick={sobre}><p>Sobre</p></li>
+                        <li onClick={skill}><p>Skills</p></li>
+                        <li onClick={projeto}><p>Projetos</p></li>
                     </ul>
                 </nav>
             </header>
