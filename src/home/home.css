@@ -57,21 +57,18 @@ nav ul li{
         font-size: 2em;
         margin-left: 120px;
     }
-
-    .home img{
-        right: 2%;
-    }
 }
 
 @media screen and (max-width: 800px) {
     nav ul li{
         font-size: 0.6em;
-        margin-right: 30px;
+        margin-right: 40px;
     }
 
     .home{
         display: flex;
         justify-content: center;
+        
     }
 
     .home h1{
@@ -83,8 +80,10 @@ nav ul li{
     .home img{
         position: absolute;
         right: auto;
+        bottom: 0;
         text-align: center;
         width: 100vw;
+        max-width: 250px;
     }
 }
 
