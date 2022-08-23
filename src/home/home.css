@@ -78,7 +78,7 @@ nav ul li{
     }
 
     .home img{
-        position: relative;
+        position: absolute;
         right: auto;
         text-align: center;
         width: 100vw;
