@@ -19,6 +19,12 @@
     position: absolute;
     left: 4%;
     cursor: pointer;
+    transition: .5s;
+}
+
+.sobre-header h2:hover{
+    scale: 1.1;
+    transition: .5s;
 }
 
 .sobre-header h1{
@@ -37,6 +43,12 @@
     border-radius: 35vh;
     margin-left: 8%;
     margin-top: 25vh;
+    transition: 0.5s;
+}
+
+.sobre img:hover{
+    scale: 1.2;
+    transition: 0.5s;
 }
 
 .sobre-perguntas{
@@ -71,24 +83,31 @@
 
 a{
     color: #232946;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2vh;
 }
 
 .git{
-    margin-right: 10vh;
+    transition: .5s;
 }
 
 .git:hover{
     color: black;
     cursor: pointer;
+    scale: 1.1;
+    transition: .5s;
 }
 
 .linkedin{
-    margin-left: 10vh;
+    transition: .5s;
 }
 
 .linkedin:hover{
     color: #0072b1;
+    scale: 1.1;
     cursor: pointer;
+    transition: .5s;
 }
 
 @media screen and (max-width: 1000px){

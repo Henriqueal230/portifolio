@@ -22,7 +22,7 @@ function Projetos(){
     return(
         <section className='projetos' id='projeto'>
             <div className='projeto-header'>
-                <h2 onClick={inicio}>Inicio</h2>
+                <h2 onClick={inicio} ontouch>Inicio</h2>
                 <h1>Projetos</h1>
             </div>
             <div className='projetosflex'>
@@ -32,6 +32,13 @@ function Projetos(){
                 nome='Pokedex'
                 comentarios='Minha podedex com react consumindo a api do pokeapi'
                 site='https://henriqueeal.github.io/pokedex/'
+                />
+                <Projeto 
+                repo ='https://github.com/HenriqueeAl/lista-de-afazeres'
+                img='/tarefa.png' 
+                nome='Lista de afazeres'
+                comentarios='Uma lista de afazeres feita com react'
+                site='https://henriqueeal.github.io/lista-de-afazeres/'
                 />
             </div>
         </section>
