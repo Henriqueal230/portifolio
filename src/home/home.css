@@ -25,6 +25,13 @@ nav ul li{
     transition: .5s;
 }
 
+nav ul li a{
+    color: white;
+    transition: .5s;
+    margin: 0;
+    text-decoration: none;
+}
+
 nav ul li:hover{
     scale: 1.1;
     opacity: 0.2;

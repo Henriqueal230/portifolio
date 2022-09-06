@@ -1,15 +1,11 @@
 import './sobre.css';
 import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
-const inicio = ()=>{
-    window.scrollTo(0,0)
-}
-
 function Sobre(props){
     return(
         <section className='sobre' id='sobre'>
             <div className='sobre-header'>
-                <h2 onClick={inicio}>Inicio</h2>
+                <a href='#home'>Inicio</a>
                 <h1>Sobre</h1>
             </div>
             <div className='img-text'>

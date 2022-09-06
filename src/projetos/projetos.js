@@ -1,9 +1,5 @@
 import './projetos.css';
 
-const inicio = ()=>{
-    window.scrollTo(0,0)
-}
-
 function Projeto(props){
     return(
         <div className='projeto'>
@@ -22,7 +18,7 @@ function Projetos(){
     return(
         <section className='projetos' id='projeto'>
             <div className='projeto-header'>
-                <h2 onClick={inicio} ontouch>Inicio</h2>
+                <a href='#home'>Inicio</a>
                 <h1>Projetos</h1>
             </div>
             <div className='projetosflex'>

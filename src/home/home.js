@@ -1,19 +1,5 @@
 import './home.css'
 
-const inicio = ()=>{
-}
-
-const sobre = ()=>{
-    window.scrollTo(0, document.getElementById('sobre').offsetTop);
-}
-
-const skill = ()=>{
-    window.scrollTo(0, document.getElementById('skill').offsetTop)
-}
-
-const projeto = ()=>{
-    window.scrollTo(0, document.getElementById('projeto').offsetTop)
-}
 
 window.onload = function (){
     const nome = document.getElementById('nome');
@@ -29,14 +15,14 @@ window.onload = function (){
 
 function Home(props){
     return(
-        <div className='home'>
+        <div className='home' id='home'>
             <header>
                 <nav>
                     <ul>
-                        <li onClick={inicio}><p>Inicio</p></li>
-                        <li onClick={sobre}><p>Sobre</p></li>
-                        <li onClick={skill}><p>Skills</p></li>
-                        <li onClick={projeto}><p>Projetos</p></li>
+                        <li><a href='#home'>Inicio</a></li>
+                        <li><a href='#sobre'>Sobre</a></li>
+                        <li><a href='#skills'>Skills</a></li>
+                        <li><a href='#projeto'>Projetos</a></li>
                     </ul>
                 </nav>
             </header>

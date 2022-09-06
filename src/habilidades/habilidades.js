@@ -1,15 +1,11 @@
 import './habilidades.css';
 import { SiJavascript,SiHtml5,SiCss3,SiReact } from 'react-icons/si';
 
-const inicio = ()=>{
-    window.scrollTo(0,0)
-}
-
 function Habilidades(){
     return(
-        <section className='skills' id='skill'>
+        <section className='skills' id='skills'>
             <div className='sobre-habilidades'>
-                <h2 onClick={inicio}>Inicio</h2>
+                <a href='#home'>Inicio</a>
                 <h1>Skills</h1>
             </div>
             <div className='skill'>

@@ -15,14 +15,17 @@
     justify-content: center;
 }
 
-.sobre-header h2{
+.sobre-header a{
+    color: #232946;
+    font-size: 1.5em;
+    text-decoration: none;
     position: absolute;
-    left: 4%;
+    left: 1%;
     cursor: pointer;
     transition: .5s;
 }
 
-.sobre-header h2:hover{
+.sobre-header a:hover{
     scale: 1.1;
     transition: .5s;
 }
