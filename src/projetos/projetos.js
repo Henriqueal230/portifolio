@@ -23,11 +23,11 @@ function Projetos(){
             </div>
             <div className='projetosflex'>
                 <Projeto 
-                repo ='https://github.com/Henriqueal230/pokedex'
-                img='/pokeicon.png' 
+                repo ='https://github.com/HenriqueeAl/Empire-Burger---BRChallenges/tree/main'
+                img='/burger-icon.svg' 
                 nome='Pokedex'
-                comentarios='Minha podedex com react consumindo a api do pokeapi'
-                site='https://henriqueeal.github.io/pokedex/'
+                comentarios='Um desafio da plataforma brchallenges feito com ReactJS e Typescript'
+                site='https://empire-burger-brchallenges.vercel.app/'
                 />
                 <Projeto 
                 repo ='https://github.com/HenriqueeAl/lista-de-afazeres'
@@ -35,6 +35,13 @@ function Projetos(){
                 nome='Lista de afazeres'
                 comentarios='Uma lista de afazeres feita com react'
                 site='https://henriqueeal.github.io/lista-de-afazeres/'
+                />
+                <Projeto 
+                repo ='https://github.com/Henriqueal230/pokedex'
+                img='/pokeicon.png' 
+                nome='Pokedex'
+                comentarios='Minha podedex com react consumindo a api do pokeapi'
+                site='https://henriqueeal.github.io/pokedex/'
                 />
             </div>
         </section>
